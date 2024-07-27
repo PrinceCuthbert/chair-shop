@@ -129,11 +129,11 @@ figure {
   font-size: 24px;
   letter-spacing: -0.5px;
 }
-.customers p:not(:last-child) {
+/* .customers p:not(:last-child) {
   font-style: italic;
   line-height: 24px;
   font-size: 18px;
-}
+} */
 .customers p:last-child {
   color: #c3fae8;
 }
