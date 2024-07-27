@@ -7,6 +7,7 @@
 
 body {
   color: #383636;
+  font-family: "Inter", sans-serif;
 }
 .container {
   width: 960px;
@@ -51,6 +52,11 @@ figure {
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
+.header img {
+  height: 450px;
+  border-radius: 10px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
 
 .part_1 {
   display: grid;
@@ -76,10 +82,7 @@ figure {
   font-size: 18px;
   text-align: center;
 }
-.header img {
-  height: 450px;
-  border-radius: 10px;
-}
+
 .part_2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -129,11 +132,11 @@ figure {
   font-size: 24px;
   letter-spacing: -0.5px;
 }
-/* .customers p:not(:last-child) {
+.customers p:not(:last-child) {
   font-style: italic;
   line-height: 24px;
   font-size: 18px;
-} */
+}
 .customers p:last-child {
   color: #c3fae8;
 }
@@ -147,6 +150,9 @@ figure {
 .chairs img {
   height: 200px;
   border-radius: 10px 10px 0 0;
+  /* border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; */
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 .chairs ul li {
   display: flex;
