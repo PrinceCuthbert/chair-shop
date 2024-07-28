@@ -117,6 +117,7 @@ figure {
   padding: 2rem;
   border-radius: 10px;
   color: #fff;
+  box-shadow: 4px 4px 4px rgba(47, 126, 67, 0.7);
 }
 
 .section_2 img {
