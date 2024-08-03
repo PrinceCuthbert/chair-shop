@@ -55,7 +55,7 @@ figure {
 .header img {
   height: 450px;
   border-radius: 10px;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.8));
 }
 
 .part_1 {
