@@ -6,7 +6,7 @@
 }
 
 body {
-  color: #383635g;
+  color: #383635;
   font-family: "Inter", sans-serif;
 }
 .container {
@@ -27,7 +27,7 @@ section {
 }
 h2 {
   font-size: 44px;
-  line-height: 48px;
+  line-height: 46px;
   letter-spacing: -1px;
   margin-bottom: 80px;
   font-weight: 700;
