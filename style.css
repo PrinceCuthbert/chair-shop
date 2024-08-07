@@ -205,3 +205,8 @@ footer {
   font-family: Arial Narrow;
   word-spacing: 2px;
 }
+@media (max-width: 768px) {
+  .header {
+    /* display: block; */
+  }
+}
