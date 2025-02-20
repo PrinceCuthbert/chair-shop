@@ -9,6 +9,11 @@ body {
   color: #383635;
   font-family: "Inter", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 960px;
   margin: 5rem auto;
@@ -205,8 +210,79 @@ footer {
   font-family: Arial Narrow;
   word-spacing: 2px;
 }
+
+/* Responsiveness */
+/* Responsiveness */
+/* Responsiveness */
+
+/* Small tablets and larger phones (portrait mode) */
 @media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
   .header {
-    /* display: block; */
+    grid-template-columns: 1fr; /* Stack the elements */
+    text-align: center;
+  }
+
+  .header img {
+    height: 300px;
+  }
+
+  .part_1 {
+    gap: 30px;
+  }
+
+  .part_1 p,
+  .part_2 div p,
+  .customers p,
+  .cart p {
+    font-size: 16px;
+  }
+
+  .part_1 a {
+    font-size: 16px;
+    padding: 0.8rem 1.2rem;
+  }
+
+  .part_2 {
+    grid-template-columns: 1fr 1fr; /* Reduce to 2 columns */
+    gap: 0.5rem;
+  }
+
+  .section_2 {
+    grid-template-columns: 1fr; /* Stack content vertically */
+    padding: 1rem;
+  }
+
+  .chairs {
+    grid-template-columns: 1fr; /* Stack all images */
+    gap: 1rem;
+  }
+}
+
+/* Phones (portrait mode) */
+@media (max-width: 480px) {
+  .header img {
+    height: 200px;
+  }
+
+  h2,
+  h3,
+  .section_title {
+    font-size: 20px;
+  }
+
+  .link {
+    font-size: 12px;
+    padding: 0.3rem 0.5rem;
+  }
+
+  footer {
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 14px;
   }
 }
