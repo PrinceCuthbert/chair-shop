@@ -64,7 +64,7 @@ figure > img:hover {
 }
 .header img {
   height: 445px;
-  border-radius: 10px;
+  border-radius: 9px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.8));
 }
 
